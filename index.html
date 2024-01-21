@@ -9,6 +9,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <script src="https://kit.fontawesome.com/e4de3cd316.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Google font -->
@@ -38,9 +39,9 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header class="container mx-auto">
-      <div class="hero">
-        <div class="hero-content flex-col lg:flex-row">
+    <header class="container mx-auto my-8">
+      <div class="">
+        <div class="flex justify-between items-center flex-col lg:flex-row">
           <div>
             <h1 class="text-7xl font-extrabold">
               It's good <br />
@@ -58,7 +59,7 @@
             </button>
           </div>
           <div>
-            <img src="images/banner.png" class="max-w-sm" />
+            <img src="images/banner.png" class="max-w-lg" />
             <div
               class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white px-6 py-5 rounded-xl w-60"
             >
@@ -285,7 +286,7 @@
       <section class="my-24">
         <div class="text-center space-y-5 mb-12">
           <h2 class="text-5xl font-extrabold">News & Events</h2>
-          <p class="font-semibold px-32">
+          <p class="font-semibold max-w-2xl mx-auto">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour, or randomised words which don't look even slightly
@@ -340,39 +341,62 @@
       </section>
     </main>
     <!-- Footer -->
-    <footer class="footer p-10 bg-base-200 text-base-content">
-      <nav>
-        <header class="footer-title">Services</header> 
-        <a class="link link-hover">Branding</a>
-        <a class="link link-hover">Design</a>
-        <a class="link link-hover">Marketing</a>
-        <a class="link link-hover">Advertisement</a>
-      </nav> 
-      <nav>
-        <header class="footer-title">Company</header> 
-        <a class="link link-hover">About us</a>
-        <a class="link link-hover">Contact</a>
-        <a class="link link-hover">Jobs</a>
-        <a class="link link-hover">Press kit</a>
-      </nav> 
-      <nav>
-        <header class="footer-title">Legal</header> 
-        <a class="link link-hover">Terms of use</a>
-        <a class="link link-hover">Privacy policy</a>
-        <a class="link link-hover">Cookie policy</a>
-      </nav> 
-      <form>
-        <header class="footer-title">Newsletter</header> 
-        <fieldset class="form-control w-80">
-          <label class="label">
-            <span class="label-text">Enter your email address</span>
-          </label> 
-          <div class="join">
-            <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
-            <button class="btn btn-primary join-item">Subscribe</button>
-          </div>
-        </fieldset>
-      </form>
+    <footer class="bg-base-200 pt-20">
+     
+     <div class="container mx-auto">
+      <div class="flex justify-between items-center">
+        <div><img src="images/cup.png" alt=""></div>
+        <div>
+          <p>
+            <span class="pr-4">Ready to get strated?</span>
+            <button class="btn">Get Started</button>
+          </p>
+        </div>
+      </div>
+
+      <div class="flex justify-between footer py-10 text-base-content">
+        <nav>
+          <header class="footer-title">Services</header> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Company</header> 
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav> 
+        <nav>
+          <header class="footer-title">Legal</header> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav> 
+        <form>
+          <header class="footer-title">Newsletter</header> 
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text ">Enter your email address</span>
+            </label> 
+
+            <div class="join">
+              <input type="text" placeholder="username@site.com" class="input input-bordered join-item" /> 
+              <button class="btn rounded-full">
+                <i class="fa-solid fa-circle-chevron-right"></i>
+              </button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div> 
+    <div class="footer footer-center p-4 bg-base-300 text-base-content">
+      <aside>
+        <p>Copyright © 2024 - All right reserved by Tea House</p>
+      </aside>
+    </div>
     </footer>
   </body>
 </html>
